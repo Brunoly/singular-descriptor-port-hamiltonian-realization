@@ -1,0 +1,2 @@
+unsat
+(error "line 39 column 85: model is not available")
