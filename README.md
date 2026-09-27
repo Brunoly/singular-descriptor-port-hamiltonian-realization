@@ -15,7 +15,7 @@ This repository addresses the singular-descriptor extension of modern constructi
 
 Relevant sources include:
 
-- C. Beattie, V. Mehrmann, and H. Xu, *Port-Hamiltonian realizations of non-minimal linear time-invariant systems*, Mathematics of Control, Signals, and Systems 38 (2026), 1–41. DOI: `10.1007/s00498-025-00432-w`. This paper treats nonminimal standard LTI systems and identifies extension to descriptor systems with singular \(E\) as an open direction.
+- C. Beattie, V. Mehrmann, and H. Xu, *Port-Hamiltonian realizations of non-minimal linear time-invariant systems*, Mathematics of Control, Signals, and Systems 38 (2026), 1–41. DOI: `10.1007/s00498-025-00432-w`. This paper treats nonminimal standard LTI systems and identifies extension to descriptor systems with singular $E$ as an open direction.
 - K. Cherifi, H. Gernandt, and D. Hinsen, *The difference between port-Hamiltonian, passive and positive real descriptor systems*, Mathematics of Control, Signals, and Systems 36 (2024), 451–482. DOI: `10.1007/s00498-023-00373-2`.
 - D. Chu and V. Mehrmann, *Port-Hamiltonian Realizations of Positive Real Descriptor Systems*, arXiv:2408.14115 (2024), giving strong realization results under controllability/observability assumptions.
 
@@ -23,9 +23,9 @@ Relevant sources include:
 
 For a regular descriptor realization
 
-\[
+$$
 E\dot x=Ax+Bu,\qquad y=Cx+Du,
-\]
+$$
 
 the proof claims a finite exact characterization of port-Hamiltonian realizability under the equivalence conventions stated in `PROOF.md`.
 
@@ -38,6 +38,10 @@ In particular, it claims:
 - the resulting matrices can be completed to the standard port-Hamiltonian dissipation form.
 
 The full statement and proof are in `PROOF.md`.
+
+## GitHub rendering
+
+The Markdown uses GitHub-native MathJax syntax: `$...$` for inline mathematics and `$$...$$` for display mathematics.
 
 ## Repository contents
 
